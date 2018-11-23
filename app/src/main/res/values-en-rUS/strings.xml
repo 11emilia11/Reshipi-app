@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reshipi</string>
+    <string name="title_activity_act_main">ActMain</string>
+    <string name="title_activity_cadastro_usuario">Users register</string>
+    <string name="txtNome">Name</string>
+    <string name="txtEmail">E-mail</string>
+    <string name="txtSenha">Password</string>
+    <string name="btnCadastro">Register</string>
+    <string name="btnInicial">Start</string>
+    <string name="tvAvaliarReceita">Evaluate Recipe</string>
+    <string name="btnAvaliar">Rate</string>
+</resources>

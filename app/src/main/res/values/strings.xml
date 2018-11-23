@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Reshipi</string>
+    <string name="title_activity_act_main">ActMain</string>
+    <string name="title_activity_cadastro_usuario">Cadastro de Usuario</string>
+    <string name="txtNome">Nome</string>
+    <string name="txtEmail">E-mail</string>
+    <string name="txtSenha">Senha</string>
+    <string name="btnCadastro">Cadastrar</string>
+    <string name="btnInicial">Início</string>
+    <string name="tvAvaliarReceita">Avaliar Receita</string>
+    <string name="btnAvaliar">Avaliar</string>
+</resources>
