@@ -9,20 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".ActMain"
-            android:label="@string/title_activity_act_main"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".CadastroUsuario"
-            android:label="@string/title_activity_cadastro_usuario"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ActCadastro" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -32,10 +18,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".ActAvaliarReceita" />
-        <activity
-            android:name=".NovaTela"
-            android:label="@string/title_activity_nova_tela"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
