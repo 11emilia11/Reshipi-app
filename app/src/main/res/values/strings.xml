@@ -9,4 +9,5 @@
     <string name="btnInicial">Início</string>
     <string name="tvAvaliarReceita">Avaliar Receita</string>
     <string name="btnAvaliar">Avaliar</string>
+    <string name="title_activity_nova_tela">Nova Tela</string>
 </resources>

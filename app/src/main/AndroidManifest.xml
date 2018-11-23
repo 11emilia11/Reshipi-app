@@ -31,7 +31,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActAvaliarReceita"></activity>
+        <activity android:name=".ActAvaliarReceita" />
+        <activity
+            android:name=".NovaTela"
+            android:label="@string/title_activity_nova_tela"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
