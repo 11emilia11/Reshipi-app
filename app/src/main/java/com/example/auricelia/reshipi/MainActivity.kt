@@ -13,9 +13,15 @@ class MainActivity : AppCompatActivity() {
 
         buttonlogin.setOnClickListener {
 
-            val i = Intent(this, ActAvaliarReceita::class.java)
+            val i = Intent(this, ActMenu::class.java)
             startActivity(i)
 
+        }
+
+        buttoncadastro.setOnClickListener {
+
+            val i = Intent(this, ActCadastro::class.java)
+            startActivity(i)
         }
     }
 }
