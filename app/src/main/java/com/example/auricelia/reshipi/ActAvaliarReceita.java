@@ -9,5 +9,8 @@ public class ActAvaliarReceita extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_avaliar_receita);
+
+
+
     }
 }

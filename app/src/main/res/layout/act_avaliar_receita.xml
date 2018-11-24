@@ -21,7 +21,8 @@
         android:layout_width="85dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="72dp"
-        android:text="Button"
+        android:background="@drawable/rounded_button"
+        android:text="Avaliar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/ratingBar"
         app:layout_constraintStart_toStartOf="@+id/ratingBar" />
