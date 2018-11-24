@@ -1,5 +1,6 @@
 package com.example.auricelia.reshipi
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
@@ -16,11 +17,25 @@ class ActCadastro : AppCompatActivity() {
 
             if (TextUtils.isEmpty(editTXTNome.text.toString()))
             {
-                Toast.makeText(this,"Pliz enter your name" , Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Por favor digite seu nome" , Toast.LENGTH_SHORT).show()
             }
             else if (TextUtils.isEmpty(edittxtEmail.text.toString()))
             {
-                Toast.makeText(this, "Pliz enter your email" , Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Por favor digite seu email" , Toast.LENGTH_SHORT).show()
+            }
+            else if ( !editTextSenhaCadastro.text.toString().equals(editTextConfSenha.text.toString())
+                       || TextUtils.isEmpty(editTextSenhaCadastro.text.toString()) )
+            {
+                Toast.makeText(this,"Senhas não conferem", Toast.LENGTH_LONG).show()
+            }
+            else
+            {
+
+                Toast.makeText(this, "Cadastro Realizado com sucesso", Toast.LENGTH_SHORT).show()
+                val i = Intent(this, MainActivity::class.java)
+                startActivity(i)
+
+
             }
         }
     }
