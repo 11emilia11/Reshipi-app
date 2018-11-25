@@ -147,7 +147,7 @@
         android:background="@drawable/rounded_button"
         android:text="@string/btnCadastro"
         android:textAllCaps="false"
-        android:textColor="#56ab2f"
+        android:textColor="#504e71"
         android:textSize="16dp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
