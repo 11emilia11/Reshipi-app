@@ -18,7 +18,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".ActAvaliarReceita" />
-        <activity android:name=".ActCadastro"></activity>
+        <activity android:name=".ActCadastro" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
