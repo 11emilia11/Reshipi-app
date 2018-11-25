@@ -19,6 +19,7 @@
         </activity>
         <activity android:name=".ActAvaliarReceita" />
         <activity android:name=".ActCadastro" />
+        <activity android:name=".BuscarPorIngred"></activity>
     </application>
 
 </manifest>

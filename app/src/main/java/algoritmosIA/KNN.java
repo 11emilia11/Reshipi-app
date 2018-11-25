@@ -1,8 +1,9 @@
 package algoritmosIA;
 
+import java.io.File;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Set;
 
 import Beans.Receita;
 import Beans.ReceitasNormalizadas;
@@ -13,16 +14,18 @@ public class KNN {
     private static KNN instancia;
     private ArrayList<String> comparador;
     private ArrayList<ReceitasNormalizadas> receitasNorm;
+    private InputStream file;
 
-    private KNN() {
+    private KNN(InputStream file) {
 
         this.comparador = this.construtor();
         this.receitasNorm = this.construtorReceitasNorm();
+        this.file = file;
     }
 
-    public static KNN getInstancia() {
+    public static KNN getInstancia(InputStream file) {
         if (instancia == null) {
-            instancia = new KNN();
+            instancia = new KNN(file);
         }
 
         return instancia;
@@ -294,7 +297,7 @@ public class KNN {
     public ArrayList<Receita> knn(ArrayList<String> array, int k) {
         ArrayList<Receita> rec = new ArrayList<>();
         ArrayList<Integer> receitaRecebida = this.normalizerReceitaRecebida(array);
-        ArrayList<Receita> distancias = Reporeceitas.getInstancia().listarReceitas();
+        ArrayList<Receita> distancias = Reporeceitas.getInstancia(this.file).listarReceitas();
 
         this.DistanciaPearson(distancias, receitaRecebida);
 
@@ -310,11 +313,11 @@ public class KNN {
     public ArrayList<ReceitasNormalizadas> construtorReceitasNorm() {
         ArrayList<ReceitasNormalizadas> rec = this.geradorReceitarNorm();
 
-        for (int x = 0; x < Reporeceitas.getInstancia().listarReceitas().size(); x++) {
-            for (int y = 0; y < Reporeceitas.getInstancia().listarReceitas().get(x).listarIngredientes().size(); y++) {
+        for (int x = 0; x < Reporeceitas.getInstancia(this.file).listarReceitas().size(); x++) {
+            for (int y = 0; y < Reporeceitas.getInstancia(this.file).listarReceitas().get(x).listarIngredientes().size(); y++) {
 
                 int local = this.comparador
-                        .indexOf(Reporeceitas.getInstancia().listarReceitas().get(x).listarIngredientes().get(y));
+                        .indexOf(Reporeceitas.getInstancia(this.file).listarReceitas().get(x).listarIngredientes().get(y));
                 rec.get(x).getIngredientes().set(local, 1);
 
             }
@@ -328,9 +331,9 @@ public class KNN {
 
         // TRANSFORMANDO O ARRAY DE INGREDIENTES EM UM ARRAY DE 0 COM O TAMANHO DO ARRAY
         // DE INGREDIENTES TOTAL E ADICIONANDO O NOME
-        for (int x = 0; x < Reporeceitas.getInstancia().listarReceitas().size(); x++) {
+        for (int x = 0; x < Reporeceitas.getInstancia(this.file).listarReceitas().size(); x++) {
             ReceitasNormalizadas r = new ReceitasNormalizadas(
-                    Reporeceitas.getInstancia().listarReceitas().get(x).getNome());
+                    Reporeceitas.getInstancia(this.file).listarReceitas().get(x).getNome());
 
             rec.add(r);
 
@@ -346,11 +349,11 @@ public class KNN {
     public ArrayList<String> construtor() {
         ArrayList<String> retorno = new ArrayList<>();
 
-        for (int x = 0; x < Reporeceitas.getInstancia().listarReceitas().size(); x++) {
-            for (int y = 0; y < Reporeceitas.getInstancia().listarReceitas().get(x).listarIngredientes().size(); y++) {
+        for (int x = 0; x < Reporeceitas.getInstancia(this.file).listarReceitas().size(); x++) {
+            for (int y = 0; y < Reporeceitas.getInstancia(this.file).listarReceitas().get(x).listarIngredientes().size(); y++) {
                 if (!retorno
-                        .contains(Reporeceitas.getInstancia().listarReceitas().get(x).listarIngredientes().get(y))) {
-                    retorno.add(Reporeceitas.getInstancia().listarReceitas().get(x).listarIngredientes().get(y));
+                        .contains(Reporeceitas.getInstancia(this.file).listarReceitas().get(x).listarIngredientes().get(y))) {
+                    retorno.add(Reporeceitas.getInstancia(this.file).listarReceitas().get(x).listarIngredientes().get(y));
                 }
             }
         }

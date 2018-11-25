@@ -1,0 +1,138 @@
+Macarrao com frango e molho de tomates,alho,Sal,Pimenta-do-reino,salvia,sobrecoxas de frango,macarrao penne,molho de tomate,Queijo parmesao
+Canelone de Frango,Azeite de oliva,cebola,alho,peito de frango,Sal,Pimenta-do-reino,passata de tomate,creme de leite de caixinha,lata de milho,manjericao,leite,manteiga,farinha de trigo,Noz-moscada,queijo mussarela,massa de lasanha,queijo parmesao
+Beef Wellington,file mignon,sal,pimenta-do-reino,Azeite de oliva,alho,cogumelos frescos,mostarda dijon,creme de leite fresco,massa folhada,presunto de parma,gema
+Bife a milanesa,bifes bovinos,ovos,Farinha de rosca,Farinha de trigo,alho,Sal,Pimenta-do-Reino
+Arroz a Piamontese,manteiga,manjericao,Champignon,arroz agulhinha,creme de leite,queijo provolone,noz-moscada
+Rocambole de Frango,peito de frango moido,farinha de pao,ovo,Salsinha,espinafre,cenoura,bacon,queijo mussarela
+File ao Molho Madeira,louro,tomilho,salsinha,Azeite de oliva,cenoura,cebola,alho-poro,salsao,tomate,osso bovino,alho,vinho Madeira,agua,manteiga,farinha de trigo,creme de leite fresco,filet,Sal,Pimenta-do-reino,cogumelo paris
+Brownie de Chocolate com leite condensado,acucar refinado,acucar mascavo,ovos,manteiga,farinha de trigo,cacau em po,chocolate,leite condensado,Gotas de chocolate
+Mousse de chocolate,creme de leite fresco,gemas,acucar,chocolate meio amargo,claras,Raspas de chocolate
+Torta a portuguesa,massa folhada,Ovo,queijo mussarela,presunto,tomate-cereja,pimentao amarelo,pimentao verde,cebola roxa,ovos cozidos
+Tortinha de nutella,nutella,farinha de trigo,manteiga,acucar de confeiteiro,agua,fermento em po,bicarbonato de sodio,amido de milho,sal,manteiga sem sal,acucar,acucar mascavo,ovo,essencia de baunilha,gotas de chocolate
+Mousse de Morango com Creme,morangos,agua,gelatina sem sabor vermelha,claras,acucar,leite condensado,leite,gemas
+Torta Ferrero Rocher,floco de milho triturado,manteiga sem sal,cacau em po,avela,cream cheese,creme de leite,acucar,essencia de baunilha,ganache de chocolate,bombons ferrero rocher
+Sonho de Padaria,leite,fermento biologico seco,farinha de trigo,acucar,Sal,ovos,manteiga,essencia de baunilha,acucar de confeiteiro,doce de leite
+Pastel Napolitano,farinha de trigo,sal,ovo,oleo,cachaca,agua,queijo mussarela,tomate-cereja,oregano
+Bolinho de Chuva com Calda de Brigadeiro,leite condensado,cacau em po,manteiga,creme de leite,ovos,oleo,acucar,leite,farinha de trigo,Raspas de limao,fermento quimico,oleo,acucar de confeiteiro,canela em po
+Coq au Vin,coxas de frango,Sal,cenoura,cebola,salsao,alhos,conhaque,vinho tinto,bacon,cebola,farinha de trigo,cogumelo paris,tomilho
+Empadao de Carne,farinha de trigo,manteiga,agua,azeite de oliva,cebola,alho,carne moida,Sal,Pimenta-do-reino,azeitonas verdes,molho de tomate,salsinha,gema
+Arroz de Carreteiro,banha de porco,cebola,alho,louro,charque,Sal,arroz cateto,caldo de vegetais,ovos,Salsinha
+Pudim Brulee,fava de baunilha,leite integral,leite condensado,ovos,acucar demerara
+Torta de limao com chocolate,farinha de trigo,acucar,manteiga,ovo,chocolate meio amargo,creme de leite fresco,leite condensado,creme de leite de caixinha,limao,merengue
+Pao com ovos e parmesao,tomate,pate de azeitona,azeite extravirgem,leite,ovos,queijo parmesao,manteiga,manjericao,sal,pimenta-do-reino
+Omelete de queijo de cabra,ovos,leite,hortela,cebolinha,manjericao,manteiga,queijo de cabra,sal,pimenta-do-reino
+Ovos quentes com mostarda,mostarda em grao,manteiga,ovos,pao de forma,pimenta-do-reino,mostarda,agriao
+Muffin de queijo e tomate,azeite,farinha de trigo,sal,farinha de milho,queijo cheddar,tomate seco,manjericao,ovo,manteiga
+Ovos mexidos com pesto,ovos,creme de leite,pao de forma,pesto,sal,pimenta-do-reino
+Batata rosti com ovos,batata,cebola,alecrim,azeite,ovos,sal,pimenta-do-reino
+Cogumelos na torrada,manteiga,azeite,cogumelos,alho,tomilho,limao siciliano,salsinha,pao de forma,queijo parmesao,sal,pimenta-do-reino
+Panquecas com calda de mirtilo,manteiga,farinha de trigo,bicarbonato de sodio,acucar,ovo,iogirte natural,creme de leite fresco,mirtilos,mel,suco de limao
+Ricota com frutas vemelhas,framboesas,agua de rosas,queijo ricota,frutas vermelhas,mel,semente de abobora,canela
+Croissants citricos,laranja,iogurte natural,grapefruit,canela,acucar,croissant
+Muffins de chocolate,chocolate amargo,manteiga,ovos,acucar,farinha de trigo,cacau em po,chocolate branco
+Queijo de coalho com roma,quejo de coalho,mel,roma,azeite,salsinha,suco de limao,pimenta vermelha,alho,calda de roma,sal,pimenta-do-reino
+Fritadas de milho,milho em lata,farinha de trigo,fermento,ovo,molho shoyu,suco de limao,raspas de limao,coentro,oleo de milho,tomate,pimenta-malagueta,alho,acucar mascavo,vinagre de arroz,sal
+Nhoque com manteiga de salvia,batata,ovo,sal marinho,azeite,farinha de trigo,manteiga,salvia,queijo parmesao
+Panini de queijo e batata doce,batata-doce,azeite,oleo de milho,salvia,ciabatta,pate de azeitona,queijo fontina,sal,pimenta-do-reino
+Bruschetta de ricota e tomate,tomate-cereja,azeite,pao italiano,alho,queijo ricota,sal,pimenta-do-reino
+Crostinis com pesto de ricota,baguete,azeite,ervilhas,alho,queijo ricota,limao-siciliano,hortela,queijo parmesao,sal,pimenta-do-reino
+Fritada de queijo de cabra,manteiga,salvia,queijo de cabra,creme de leite fresco,ovos,pimenta-do-reino,sal
+Figos assados com queijo de cabra,figos,queijo de cabra,hortela,azeite,sal,pimenta-do-reino,minirucula,azeite,suco de limao
+Tofu com molho apimentado,oleo de milho,tofu,farinha de milho,sal,anis,cravo,canela,vinagre de arroz,agua,acucar,shoyu,pimenta vermelha,azeite
+Pasta de berinjela,berinjela,azeite,cominho,coalhada,alho,coentro,suco de limao,sal,pimenta-do-reino
+Falafel com pao sirio,grao-de-bico,cebola,alho,salsinha,coentro,fermento em po,oleo de milho,pao sirio,tomates,coalhada
+Abobora com pesto de nozes,abobora,azeite,sal,pimenta-do-reino,nozes,cebolinha,alho,rucula
+Won ton de cogumelos,oleo de milho,alho,gengibre,cogumelos,shoyu,massa para won ton,pimenta seca,caldo de legumes,vinagre de arroz,acucar
+Hommus de alecrim com ervilha,azeite,cebola,alho,alecrim,limao siciliano,ervilha,sal,pimenta-do-reino
+Tortinha de gorgonzola,manteiga,cebola,alho,tomilho,nozes,massa folhada,farinha de trigo,queijo gorgonzola,sal,pimenta-do-reino
+Curry de ervilha,oleo de girassol,curry,abobora,caldo de legumes,leite de coco,coentro,ervilhas,shoyu,limao,pimenta vermelha
+Cuscuz com legumes grelhados,berinjela,abobrinha,pimentao vermelho,azeite,cuscuz marroquino,caldo de legumes,manteiga,horleta,coentro,salsinha,limao siciliano,sal,pimenta-do-reino
+Pimentoes assados,pimentao vermelho,alho,tomilho,tomates,azeite,vinagre balsamico,sal,pimenta-do-reino
+Risoto com brie,caldo de legumes,manteiga,cebola,alho,arroz arborio,vinho branco,ervilhas,hortela,queijo brie,sal,pimenta-do-reino,queijo parmesao
+Espaguete com favas,espaguete,favas,azeite,alho,pimenta calabresa,suco de limao,manjericao,sal,pimenta-do-reino,queijo parmesao
+Barrinhas de aveia,aveia em flocos,manteiga,mel
+Crepes integrais com frutas vermelhas,farinha de trigo integral,leite desnatado,ovo,manteiga,framboesa,mirtilo,morango,acucar
+Torta com sementes de papoula,massa folhada,leite,ovos,acucar de confeiteiro,canela,maisena,manteiga,sementes de papoula
+Torta de acelga e ricota,massa folhada,acelga,queijo ricota,creme de leite fresco,ovos,uvas passa,acucar,essencia de baunilha,amendoas,canela em po
+Pao doce com chocolate e framboesas,manteiga,acucar,ovos,iogurte de baunilha,fermento em po,esssencia de baunilha,farinha de trigo,farinha de centeio integral,cacau em po,chocolate meio amargo,framboesas,laranja
+Berinjelas e tomates recheados,arroz integral,arroz-selvagem,berinjela,tomate,pimentao amarelo,pimentao vermelho,abobrinha,cenoura,cebola,manjerona,azeite,sal,pimenta-do-reino
+Sopa picante a moda oriental,alho-poro,salsao,alho,pimenta dedo-de-moca,lentillha,ervilha seca,curry,cominho,macarrao espaguete,salsinha,azeite,sal,pimenta-do-reino
+Pao doce com uvas passa e pinolis,pao integral amanhecido,leite,ovo,uva passa,pinolis,manteiga,canela em po,farinha de rosca,noz-moscada,mel
+Strudel integral,farinha de trigo integral,acucar,raspas de limao,maca,noz,uva passa,acucar mascavo,canela em po,farinha de rosca,mel,oleo de milho
+Torrada de berinjela com pesto,berinjela,azeite,pao italiano,tomate,queijo mussarela,sal,pimenta-do-reino,manjericao,alho,pinolis,queijo parmesao
+Risoto de beterraba,caldo de legumes,beterraba,azeite,cebola roxa,alho,tomilho,arroz arborio,vinho tinto,queijo de cabra,nozes-pecas,rucula,sal,pimenta-do-reino
+Lasanha de espinafre e champignon,azeite,alho,tomilho,champignon,espinafre,oleo,massa de lasanha,sal,pimenta-do-reino,leite,louro,manteiga,farinha de trigo,queijo cheddar
+Omelete de tomate e manjericao,azeite,tomate-cereja,manjericao,ovos,mostarda em grao,manteiga,queijo de cabra,sal,pimenta-do-reino
+Kebab de legumes com pilaf,alecrim,azeite,abobrinha,pimentao vermelho,champignon,tomate-cereja,sal,pimenta-do-reino,arroz basmati,cebola,alho,cardamomo,uva passa,coentro
+Risoto asiatico,caldo de legumes,shoyu,mirin,oleo de girassol,azeite,cebolinha,alho,arroz arborio,raspas de limao,shitake,coentro
+Fritada de aspargos e tomate,azeite,alho-poro,alho,aspargo,ovos,queijo feta,quejo parmesao,tomate-cereja,sal,pimenta-do-reino
+Caril de grao de bico e castanha de caju,oleo de milho,cebola,alho,gengibre,cominho,curcuma,canela em po,tomate,agua,batata inglesa,grao-de-bico,champignon,castanha-de-caju,coentro,iogurte natural,sal,pimenta-do-reino
+Torta de abobora e cebola,manteiga,cebola,alho,salvia,abobora,azeite,massa folhada,farinha de trigo,queijo feta,ovo,sal,pimenta-do-reino
+Sopa de lentilha,azeite,cebola,alho,cenoura,batata inglesa,curry,caldo de legumes,coentro,sal,pimenta-do-reino,raspas de limao,suco de limao
+Pudim cookie de chocolate,leite condensado,leite,ovos,chocolate em po,essencia de baunilha,creme de leite de caixinha,biscoito de chocolate,manteiga
+Pudim de cupuacu,leite condensado,ovos,amido de milho,polpa de cupuacu,acucar
+Pudim de padaria,farinha de trigo,leite,acucar,ovos,queijo parmesao,coco ralado
+Pudim de mandioca,mandioca,acucar,ovos,manteiga,farinha de trigo,fermento em po,queijo parmesao
+Pudim de laranja,leite condensado,ovos,raspas de laranja,acucar
+Pudim de limao,leite condensado,suco de limao,ovos,leite,raspas de limao,acucar
+Quindao,gemas,acucar,manteiga,coco ralado
+Pudim de cenoura e ameixa,leite condensado,leite,cenoura,ovos,essencia de baunilha,farinha de trigo,ameixa,acucar
+Pudim de claras com baba de moca,claras,acucar de confeiteiro,manteiga,agua,gemas,leite de coco
+Bavaroise de baunilha,leite,creme de leite fresco,acucar,gemas,essencia de baunilha,gelatina em po,morangos,acucar,suco de limao
+Pudim italiano,leite,acucar,farinha de trigo,queijo minas curado,ovos,manteiga
+Pudim de cafe e chocolate,leite,acucar,cafe soluvel,manteiga,farinha de trigo,ovos,chocolate meio amargo,creme de leite fresco
+Mousse de maracuja,suco de maracuja,leite condensado,creme de leite,gelatina em po,polpa de maracuja,acucar,agua
+Mousse de laranja,suco de laranja,acucar,gelatina em po,agua,creme de leite
+Mousse de uva,claras,acucar,gelatina em po,creme de leite,suco de uva,amido de milho
+Mousse de limao,leite condensado,suco de limao,creme de leite,claras,raspas de limao
+Creme de abacaxi e coco,abacaxi em calda,leite de coco,coco ralado,calda de abacaxi,leite condensado,claras,gelatina em po
+Creme de abacate,abacate,leite,acucar,essencia de baunilha
+Zabaione,gemas,acucar,vinho
+Pure de ervilha,ervilha seca,cebola,salsinha,louro,tomilho,caldo de galinha,creme de leite,pimenta-do-reino
+Bolo de carne com queijo,carne moida,vinagre,pao de forma,leite,cebola,alho,salsinha,cebolinha,oregano,pimenta-do-reino,bacon,queijo ricota,quejo provolone,ovo
+Picadinho de file mignon,file mignon,sal,pimenta-do-reino,vinho tinto,manteiga,salsao,alho,extrato de tomate
+Banana a milanesa,banana,ovo,leite,sal,pimenta-do-reino,farinha de rosca,oleo
+Polenta,agua,fuba,sal
+Salada de abobrinha,abobrinha,vinagre,azeite,sal,pimenta-do-reino,mostarda,ovos cozidos
+Arroz de espinafre,arroz,caldo de carne,cebola,oleo,alho,espinafre,sal
+Frango com salvia,peito de frango,mel,mostarda,suco de limao,sal,salvia,manteiga
+Bolinho de batata,batata,sal,ovo,farinha de trigo,queijo parmesao,noz-moscada,oleo
+Risoto delicado,manteiga,azeite,alho,cebola,arroz,vinho branco,caldo de galinha,agua,brocolis
+Cacarola rapida de frango,peito de frango,sal,pimenta-do-reino,alho,oleo,cebola,tomate,pimentao,molho ingles,acafrao-da-terra,oregano,caldo de galinha,cogumelos
+File de frango recheado,peito de frango,suco de limao,alho,sal,pimenta-do-reino,salvia,manteiga,cebola,raspas de limao,pao de forma,ovo
+Pure de batata com leite de coco,batata-doce,leite de coco,sal
+Empanado de frango,peito de frango,vinho branco,noz-moscada,sal,pimenta-do-reino,suco de laranja,queijo mussarela,presunto,ovos,farinha de rosca,oleo
+Frango de festa,frango,azeite,caldo de galinha,agua,cebolinha,alho,cebola,louro,tomilho,salsinha,vinho tinto,sal,pimenta-do-reino
+Sopa de cogumelos,cogumelos,agua,manteiga,cebola,alho,tomilho,champignon,caldo de legumes,creme de leite,sal,pimenta-do-reino
+Sopa de feijao,azeite,cebola,alho,coentro,cominho,feijao,tomate,caldo de legumes,quejo cheddar,sal,pimenta-do-reino
+Sopa de abobora,azeite,cebola,alho,salvia,abobora,feijao-branco,caldo de legumes,sal,pimenta-do-reino
+Sopa de rucula,azeite,cebola,alho,tomilho,batata inglesa,ervilha,caldo de legumes,rucula,limao siciliano,sal,pimenta-do-reino
+Sopa de inverno,azeite,cebola,alho,alecrim,cenoura,erva-doce,nabo,cevada,cerveja,caldo de legumes,salsinha,sal,pimenta-do-reino
+Sopa de batata doce com coco,azeite,cebola,alho,gengibre,limao,pimenta malagueta,batata-doce,caldo de legumes,leite de coco,sal,pimenta-do-reino
+Sopa de feijao e macarrao,azeite,cebola,alho,alecrim,tomate,caldo de legumes,feijao,macarrao,sal,pimenta-do-reino
+Macarrao oriental com champignon,macarrao oriental,caldo de legumes,shoyu,mirin,champignon,cebolinha,tofu
+Tagine de legumes com acafrao,oleo de girassol,cebola,alho,coentro em po,cominho em po,canela em po,grao-de-bico,tomate,caldo de legumes,acafrao,berinjela,champignon,figo,sal,pimenta-do-reino
+Goulash com bolinhos de cebolinha,azeite,cebola,alho,cenoura,salsao,batata inglesa,paprica,tomate,caldo de legumes,sal,pimenta-do-reino,farinha de trigo,oleo de girassol,agua
+Cozido de legumes a provencal,azeite,cebola roxa,alho,coentro em po,tomilho,erva-doce,pimentao vermelho,tomate,azeitona preta,salsinha,sal,pimenta-do-reino
+Torta de queijo de cabra e figos,massa folhada,farinha de trigo,ovo,pate de azeitona,figo,tomate-cereja,quejo de cabra,tomilho,queijo parmesao
+Torta de cogumelos,manteiga,cebola,alho,tomilho,cogumelo,iogurte natural,ovos,queijo parmesao,sal,pimenta-do-reino,farinha de trigo,sal,agua
+Torta de queijo feta e tomate,massa folhada,farinha de trigo,pesto,tomate,queijo feta,queijo parmesao,sal,pimenta-do-reino
+Pao de bicarbonato com sementes,oleo,farinha de trigo integral,sementes de girassol,sementes de papoula,bicarbonato de sodio,sal,acucar refinado,iogurte natural
+Pao de milho e pimenta,oleo de girassol,farinha de trigo,fermento em po,farinha de milho,sal,ovos,iogurte natural,milho,pimenta vermelha
+Pao australiano com queijo e alecrim,farinha de trigo,sal,fermento em po,manteiga,queijo cheddar,alecrim,leite,agua
+Berinjela gratinada,tomate em lata,alho,azeite,acucar,manjericao,berinjela,queijo de cabra,queijo parmesao,sal,pimenta-do-reino
+Pizza quatro queijos,quejo mussarela,queijo fontina,queijo gorgonzola,queijo parmessao,farinha de trigo,fermento em po,sal,acucar,agua,azeite
+Arroz a jardineira,cebola,oleo,vagem,pimentao vermelho,pimentao amarelo,pimentao verde,sal,pimenta-do-reino,milho verde,arroz,queijo parmesao
+Torta chiffon de laranja,cream cracker,acucar,manteiga,gelatina em po,ovos,suco de laranja,suco de limao,creme de leite fresco,raspas de laranja
+Torta mousse de chocolate,biscoito maisena,acucar,chocolate em po,manteiga,chocolate meio amargo,chocolate ao leite,creme de leite,claras,rum
+Pave de coco,biscoito champanhe,leite,leite condensado,gemas,amido de milho,creme de leite,essencia de baunilha,geleia de morango,coco ralado
+Pave de uva,uva italia,biscoito champanhe,leite,creme de leite fresco,raspas de chocolate,gemas,leite condensado,amido de milho,chocolate ao leite,creme de leite
+Pave de cafe,gemas,acucar,cream cheese,quejo ricota,cafe coado,biscoito champanhe,amendoa,essencia de baunilha
+Pave de abacaxi e coco,doce de leite,coco ralado,creme de leite,biscoito maria,abacaxi em calda,claras,acucar
+Delicia de morango,chocolate branco,gemas,acucar,morangos,creme de leite fresco
+Salada de frango com legumes,peito de frango,batata inglesa,cenoura,sal,pimenta-do-reino,cebola,tomate,azeitona,ovos cozidos,azeite,vinagre,salsinha,cebolinha
+Salada de frango ao vinho com frutas,frango assado,alecrim,manteiga,vinho,alface americana,nozes,uvas,melao,kiwis,vinagre,azeite,hortela
+Croquete de peixe,cebola,manteiga,peixe,coentro,gemas,farinha de trigo,leite,sal,pimenta-do-reino,farinha de rosca,oleo de soja
+Trouxinhas de frango,peito de frango,abobrinha,queijo cottage,cebolinha,sal,pimenta-do-reino,maisena,agua,salvia
+Arroz com brocolis,arroz,brocolis,azeite,alho,sal,pimenta-do-reino,ovos cozidos
+Bolinhos de arroz,arroz cozido,cebola,salsinha,cebolinha,ovos,farinha de trigo,fermento em po,queijo prato,oleo de soja
