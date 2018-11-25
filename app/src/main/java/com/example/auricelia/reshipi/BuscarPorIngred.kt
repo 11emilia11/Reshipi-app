@@ -9,11 +9,11 @@ import kotlinx.android.synthetic.main.activity_buscar_por_ingred.*
 
 class BuscarPorIngred : AppCompatActivity() {
 
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_buscar_por_ingred)
+
+        val arrayAramazena = arrayListOf<String>()
 
         val myDataset = arrayOf("Leonardo","Leonardo","Leonardo","Leonardo","Leonardo","Leonardo","Leonardo","Leonardo","Leonardo"
         ,"Leonardo","Leonardo","Leonardo","Leonardo","Leonardo","Leonardo","Leonardo","Leonardo","Leonardo","Leonardo","Leonardo","Leonardo"
@@ -24,6 +24,7 @@ class BuscarPorIngred : AppCompatActivity() {
 
         val viewAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, myDataset)
         ListView1.adapter = viewAdapter
+        
 
     }
 }

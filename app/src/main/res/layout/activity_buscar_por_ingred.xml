@@ -10,10 +10,13 @@
 
     <ListView
         android:id="@+id/ListView1"
-        android:layout_width="wrap_content"
+        android:layout_width="376dp"
         android:layout_height="472dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ListView>
 
     <Button
         android:id="@+id/button3"
@@ -37,4 +40,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ListView1"
         app:layout_constraintVertical_bias="0.19" />
+
 </android.support.constraint.ConstraintLayout>
