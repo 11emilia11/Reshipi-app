@@ -12,23 +12,23 @@
         android:layout_width="239dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="96dp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintStart_toStartOf="@+id/textView" />
+        app:layout_constraintBottom_toTopOf="@+id/btnAvaliarReceita"
+        app:layout_constraintEnd_toEndOf="@+id/tvAvaliarReceita"
+        app:layout_constraintStart_toStartOf="@+id/tvAvaliarReceita" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnAvaliarReceita"
         android:layout_width="85dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="72dp"
         android:background="@drawable/rounded_button"
-        android:text="Avaliar"
+        android:text="@string/btnAvaliarReceita"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/ratingBar"
         app:layout_constraintStart_toStartOf="@+id/ratingBar" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvAvaliarReceita"
         android:layout_width="wrap_content"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"

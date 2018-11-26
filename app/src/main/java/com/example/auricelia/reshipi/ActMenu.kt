@@ -11,17 +11,14 @@ class ActMenu : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        buttonBuscarporIngre.setOnClickListener {
+        btnBuscarporIngre.setOnClickListener {
 
             val i = Intent(this, BuscarPorIngred::class.java)
             startActivity(i)
         }
 
-        buttonBuscarporReceita.setOnClickListener {
 
-        }
-
-        buttonListarReceita.setOnClickListener {
+        btnListarReceita.setOnClickListener {
 
         }
 

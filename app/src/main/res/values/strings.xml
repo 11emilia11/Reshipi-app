@@ -2,13 +2,24 @@
     <string name="app_name">Reshipi</string>
     <string name="title_activity_act_main">ActMain</string>
     <string name="title_activity_cadastro_usuario">Cadastro de Usuario</string>
-    <string name="txtNome">Nome</string>
-    <string name="txtEmail">E-mail</string>
-    <string name="txtSenha">Senha</string>
-    <string name="btnCadastro">Cadastrar</string>
+
+    <string name="btnCadastrar">Cadastrar</string>
     <string name="btnInicial">Início</string>
     <string name="tvAvaliarReceita">Avaliar Receita</string>
-    <string name="btnAvaliar">Avaliar</string>
+    <string name="btnAvaliarReceita">Avaliar</string>
     <string name="title_activity_nova_tela">Nova Tela</string>
     <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="btnBuscarporIngre">Buscar por Ingredientes</string>
+    <string name="btnListarReceita">Listar Receitas</string>
+    <string name="btnPesquisarIngr">Pesquisar</string>
+    <string name="tvEmailLogin">E-mail</string>
+    <string name="tvSenhaLogin">Senha</string>
+    <string name="btnCadastro">Cadastro</string>
+    <string name="btnLogin">Login</string>
+    <string name="tvNomeCadastro">Nome</string>
+    <string name="tvEmailCadastro">E-mail</string>
+    <string name="tvSenhaCadastro">Senha</string>
+    <string name="tvConfirmarSenhaCad">Confirmar senha</string>
+
 </resources>
