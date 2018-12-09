@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.loginscreen)
 
-        buttonlogin.setOnClickListener {
+        btnLogin.setOnClickListener {
 
             val i = Intent(this, ActMenu::class.java)
             startActivity(i)

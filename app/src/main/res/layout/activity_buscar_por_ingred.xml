@@ -19,7 +19,7 @@
     </ListView>
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnPesquisarIngr"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
@@ -29,10 +29,10 @@
         android:layout_marginRight="150dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/rounded_button"
-        android:text="Pesquisar"
+        android:text="@string/btnPesquisarIngr"
         android:textAllCaps="false"
         android:textColor="#504e71"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
