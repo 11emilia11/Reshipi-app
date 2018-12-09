@@ -1,25 +1,22 @@
 package Dados;
-
 import android.util.Log;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 import Beans.Receita;
 import Exceptions.Objectnotfound;
 import Exceptions.Objetojaexiste;
-import Beans.Receita;
-import Dados.Reporeceitas;
-import algoritmosIA.KNN;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.support.v7.widget.RecyclerView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
+
 
 public class Reporeceitas {
 
@@ -31,11 +28,11 @@ public class Reporeceitas {
         this.receitas = new ArrayList<>();
     }
 
-    public static Reporeceitas getInstancia(InputStream file)
+    public static Reporeceitas getInstancia()
     {
         if(instancia == null)
         {
-            instancia = Reporeceitas.load(file);
+            instancia = Reporeceitas.load();
         }
 
         return instancia;
@@ -53,9 +50,6 @@ public class Reporeceitas {
         {
             this.receitas.add(r);
         }
-
-
-
 
     }
 
@@ -121,53 +115,67 @@ public class Reporeceitas {
 
 
     @SuppressWarnings("resource")
-    private static Reporeceitas load(InputStream file){
+    private static Reporeceitas load(){
 
         Reporeceitas rep = new Reporeceitas();
         int contNome = 0;
         Receita r = null;
 
-        try {
-            Scanner sc = new Scanner(file)
-                    .useDelimiter(",");
+        try
+        {
+            URL url = new URL("https://drive.google.com/uc?export=download&id=15hJ66NmEGFNziw45M5glBKWzIOpIp3RT");
+            HttpURLConnection con = (HttpURLConnection) url.openConnection();
+
+            InputStream is = con.getInputStream();
+
+            try {
+                Scanner sc = new Scanner(is).useDelimiter(",");
 
 
-            while(sc.hasNextLine())
-            {
-                String line = sc.nextLine();
-                Scanner lnsc = new Scanner(line).useDelimiter(",");
-
-                while(lnsc.hasNext())
+                while(sc.hasNextLine())
                 {
-                    if(contNome == 0)
+                    String line = sc.nextLine();
+                    System.out.println(line);
+                    Scanner lnsc = new Scanner(line).useDelimiter(",");
+
+                    while(lnsc.hasNext())
                     {
-                        r = new Receita(lnsc.next());
-                        contNome++;
+                        if(contNome == 0)
+                        {
+                            r = new Receita(lnsc.next());
+                            contNome++;
+                        }
+                        else
+                        {
+                            r.addIngre(lnsc.next().toLowerCase());
+                        }
+
                     }
-                    else
-                    {
-                        r.addIngre(lnsc.next().toLowerCase());
+
+                    lnsc.close();
+                    contNome = 0;
+                    try {
+                        rep.cadastrarReceita(r);
+                    } catch (Objetojaexiste e) {
+                        // TODO Auto-generated catch block
+                        e.printStackTrace();
                     }
 
                 }
 
-                lnsc.close();
-                contNome = 0;
-                try {
-                    rep.cadastrarReceita(r);
-                } catch (Objetojaexiste e) {
-                    // TODO Auto-generated catch block
-                    e.printStackTrace();
-                }
 
+                sc.close();
+            } catch (Exception e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
             }
 
-
-            sc.close();
-        } catch (Exception e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+        }catch (Exception exception)
+        {
+            exception.printStackTrace();
         }
+
+
 
         return rep;
     }

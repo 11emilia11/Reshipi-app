@@ -14,18 +14,17 @@ public class KNN {
     private static KNN instancia;
     private ArrayList<String> comparador;
     private ArrayList<ReceitasNormalizadas> receitasNorm;
-    private InputStream file;
 
-    private KNN(InputStream file) {
+    private KNN() {
 
         this.comparador = this.construtor();
         this.receitasNorm = this.construtorReceitasNorm();
-        this.file = file;
+
     }
 
-    public static KNN getInstancia(InputStream file) {
+    public static KNN getInstancia() {
         if (instancia == null) {
-            instancia = new KNN(file);
+            instancia = new KNN();
         }
 
         return instancia;
@@ -297,7 +296,7 @@ public class KNN {
     public ArrayList<Receita> knn(ArrayList<String> array, int k) {
         ArrayList<Receita> rec = new ArrayList<>();
         ArrayList<Integer> receitaRecebida = this.normalizerReceitaRecebida(array);
-        ArrayList<Receita> distancias = Reporeceitas.getInstancia(this.file).listarReceitas();
+        ArrayList<Receita> distancias = Reporeceitas.getInstancia().listarReceitas();
 
         this.DistanciaPearson(distancias, receitaRecebida);
 
@@ -313,11 +312,11 @@ public class KNN {
     public ArrayList<ReceitasNormalizadas> construtorReceitasNorm() {
         ArrayList<ReceitasNormalizadas> rec = this.geradorReceitarNorm();
 
-        for (int x = 0; x < Reporeceitas.getInstancia(this.file).listarReceitas().size(); x++) {
-            for (int y = 0; y < Reporeceitas.getInstancia(this.file).listarReceitas().get(x).listarIngredientes().size(); y++) {
+        for (int x = 0; x < Reporeceitas.getInstancia().listarReceitas().size(); x++) {
+            for (int y = 0; y < Reporeceitas.getInstancia().listarReceitas().get(x).listarIngredientes().size(); y++) {
 
                 int local = this.comparador
-                        .indexOf(Reporeceitas.getInstancia(this.file).listarReceitas().get(x).listarIngredientes().get(y));
+                        .indexOf(Reporeceitas.getInstancia().listarReceitas().get(x).listarIngredientes().get(y));
                 rec.get(x).getIngredientes().set(local, 1);
 
             }
@@ -331,9 +330,9 @@ public class KNN {
 
         // TRANSFORMANDO O ARRAY DE INGREDIENTES EM UM ARRAY DE 0 COM O TAMANHO DO ARRAY
         // DE INGREDIENTES TOTAL E ADICIONANDO O NOME
-        for (int x = 0; x < Reporeceitas.getInstancia(this.file).listarReceitas().size(); x++) {
+        for (int x = 0; x < Reporeceitas.getInstancia().listarReceitas().size(); x++) {
             ReceitasNormalizadas r = new ReceitasNormalizadas(
-                    Reporeceitas.getInstancia(this.file).listarReceitas().get(x).getNome());
+                    Reporeceitas.getInstancia().listarReceitas().get(x).getNome());
 
             rec.add(r);
 
@@ -349,11 +348,11 @@ public class KNN {
     public ArrayList<String> construtor() {
         ArrayList<String> retorno = new ArrayList<>();
 
-        for (int x = 0; x < Reporeceitas.getInstancia(this.file).listarReceitas().size(); x++) {
-            for (int y = 0; y < Reporeceitas.getInstancia(this.file).listarReceitas().get(x).listarIngredientes().size(); y++) {
+        for (int x = 0; x < Reporeceitas.getInstancia().listarReceitas().size(); x++) {
+            for (int y = 0; y < Reporeceitas.getInstancia().listarReceitas().get(x).listarIngredientes().size(); y++) {
                 if (!retorno
-                        .contains(Reporeceitas.getInstancia(this.file).listarReceitas().get(x).listarIngredientes().get(y))) {
-                    retorno.add(Reporeceitas.getInstancia(this.file).listarReceitas().get(x).listarIngredientes().get(y));
+                        .contains(Reporeceitas.getInstancia().listarReceitas().get(x).listarIngredientes().get(y))) {
+                    retorno.add(Reporeceitas.getInstancia().listarReceitas().get(x).listarIngredientes().get(y));
                 }
             }
         }
