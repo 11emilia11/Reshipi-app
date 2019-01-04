@@ -2,6 +2,7 @@ package algoritmosIA;
 
 import java.io.File;
 import java.io.InputStream;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -207,7 +208,7 @@ public class KNN {
         ArrayList<Double> somatoriovarX = this.SomatorioVarX(xmedio, ReceitaRecebida);
         double somatoriovarY = this.SomatorioVarY(ymedio, ReceitaRecebida);
 
-        for (int x = 0; x < this.receitasNorm.size(); x++) {
+        for (int x = 0; x < this.comparador.size(); x++) {
             double distancia2 = 0;
 
             distancia2 = (somatoriocov.get(x) / (somatoriovarX.get(x) * somatoriovarY));
@@ -237,18 +238,25 @@ public class KNN {
     public void MaiorDistancia(ArrayList<Receita> rec, int k, ArrayList<Receita> distancias) {
         int maior = 0;
 
+        ArrayList<Integer> auxiliar = new ArrayList<>();
+
         for (int x = 0; x < k; x++) {
             maior = 0;
 
             for (int y = 0; y < distancias.size(); y++) {
-                if (distancias.get(maior).getDistancia() <= distancias.get(y).getDistancia()) {
-                    maior = y;
+                if (distancias.get(maior).getDistancia() <= distancias.get(y).getDistancia())
+                {
+                    if(!auxiliar.contains(y))
+                    {
+                        maior = y;
+                    }
                 }
 
             }
 
             rec.add(distancias.get(maior));
-            distancias.remove(maior);
+            auxiliar.add(maior);
+
 
         }
     }
@@ -256,18 +264,24 @@ public class KNN {
     public void MenorDistancia(ArrayList<Receita> rec, int k, ArrayList<Receita> distancias) {
         int menor = 0;
 
+        ArrayList<Integer> auxiliar = new ArrayList<>();
+
         for (int x = 0; x < k; x++) {
             menor = 0;
 
             for (int y = 0; y < distancias.size(); y++) {
-                if (distancias.get(menor).getDistancia() >= distancias.get(y).getDistancia()) {
+                if (distancias.get(menor).getDistancia() >= distancias.get(y).getDistancia())
+                {
+                    if(!auxiliar.contains(y))
+                    {
                     menor = y;
+                    }
                 }
 
             }
 
             rec.add(distancias.get(menor));
-            distancias.remove(menor);
+            auxiliar.add(menor);
 
         }
     }
@@ -303,8 +317,6 @@ public class KNN {
         this.PorcentagemMatch(distancias, receitaRecebida);
 
         this.MaiorDistancia(rec, k, distancias);
-
-
 
         return rec;
     }

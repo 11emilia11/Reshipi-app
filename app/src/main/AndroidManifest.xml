@@ -22,7 +22,8 @@
         <activity android:name=".ActAvaliarReceita" />
         <activity android:name=".ActCadastro" />
         <activity android:name=".BuscarPorIngred" />
-        <activity android:name=".ReceitaShow"></activity>
+        <activity android:name=".ReceitaShow" />
+        <activity android:name=".receitalista"></activity>
     </application>
 
 </manifest>
