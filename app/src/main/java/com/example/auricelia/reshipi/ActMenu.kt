@@ -20,6 +20,8 @@ class ActMenu : AppCompatActivity() {
 
         btnListarReceita.setOnClickListener {
 
+            val i = Intent(this, receitalista::class.java)
+            startActivity(i)
         }
 
 

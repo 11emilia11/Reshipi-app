@@ -7,6 +7,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.StrictMode
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import kotlinx.android.synthetic.main.activity_receita_show.*
 
@@ -28,14 +29,28 @@ class ReceitaShow : AppCompatActivity() {
 
 
             var array = intent.getStringArrayListExtra("escolhidos")
-            this.resultado = KNN.getInstancia().knn(array, 1)
+            this.resultado = KNN.getInstancia().knn(array, 5)
 
-            ReceitaName.setText(resultado.get(0).nome)
-            var viewAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, array)
+            var array2 = ArrayList<String>()
+            array2.add(resultado.get(0).nome)
+            array2.add(resultado.get(1).nome)
+            array2.add(resultado.get(2).nome)
+            array2.add(resultado.get(3).nome)
+            array2.add(resultado.get(4).nome)
+
+
+            ReceitaName.setText("Receitas possíveis a partir dos ingredientes escolhidos")
+            var viewAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, array2)
             ListView1ShowReceita.adapter = viewAdapter
 
 
-            PorcentagemTxtView.setText(KNN.getInstancia().listarReceitasNormalizadas().size.toString())
+            ListView1ShowReceita.onItemClickListener = AdapterView.OnItemClickListener { adapterView, view, position, id ->
+
+                var i = Intent(this, ReceitaResultado::class.java)
+                i.putExtra("escolhida", array2[position])
+                startActivity(i)
+
+            }
         }
 
 
