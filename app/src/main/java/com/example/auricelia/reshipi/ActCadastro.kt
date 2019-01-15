@@ -1,13 +1,13 @@
 package com.example.auricelia.reshipi
 
+import Beans.Usuario
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.database.*
 import kotlinx.android.synthetic.main.act_cadastro.*
 
 class ActCadastro : AppCompatActivity() {
@@ -45,23 +45,18 @@ class ActCadastro : AppCompatActivity() {
             else
             {
 
-                var usuario = Usuario(nomeET.text.toString(), cursoSpinner.selectedItem.toString(),
-                        campusSpinner.selectedItem.toString(), loginET.text.toString(), senhaET.text.toString())
+                var usuario = Usuario(editTXTNome.text.toString(),edittxtEmail.text.toString(),editTextSenhaCadastro.text.toString())
                 usuario.EncodeString()
 
                 usuarios!!.addListenerForSingleValueEvent(object : ValueEventListener {
                     override fun onCancelled(p0: DatabaseError) {
-                        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+                         //To change body of created functions use File | Settings | File Templates.
                     }
 
                     override fun onDataChange(dataSnapshot: DataSnapshot) {
-                        if (verificarDados(usuario)){
-                            if (usuario.senha.length < 6){
-                                Toast.makeText(applicationContext, R.string.senha_pequena,
-                                        Toast.LENGTH_SHORT).show()
-                            }else{
+
                                 if (dataSnapshot.child(usuario.email).exists()){
-                                    Toast.makeText(applicationContext, R.string.email_cadastrado,
+                                    Toast.makeText(applicationContext, "Usuário já existe",
                                             Toast.LENGTH_SHORT).show()
                                 }else{
                                     usuario.DecodeString()
@@ -72,8 +67,9 @@ class ActCadastro : AppCompatActivity() {
                                                     usuario.EncodeString()
                                                     usuarios!!.child(usuario.email).setValue(usuario)
                                                     Toast.makeText(applicationContext,
-                                                            R.string.usuario_criado, Toast.LENGTH_SHORT).show()
-                                                    val intent = Intent(applicationContext, Main2Activity::class.java)
+                                                            "Usuario criado com sucesso", Toast.LENGTH_SHORT).show()
+
+                                                    val intent = Intent(applicationContext, MainActivity::class.java)
                                                     startActivity(intent)
                                                     finish()
                                                 }
@@ -87,17 +83,19 @@ class ActCadastro : AppCompatActivity() {
                                             }
                                 }
                             }
-                        }
-                    }
+
                 })
-
-
-                Toast.makeText(this, "Cadastro Realizado com sucesso", Toast.LENGTH_SHORT).show()
-                val i = Intent(this, MainActivity::class.java)
-                startActivity(i)
 
 
             }
         }
+    }
+
+    private fun verificarDados(usuario: Usuario): Boolean {
+        if(usuario.nome.isBlank() ||  usuario.email.isBlank() || usuario.senha.isBlank()){
+            return false
+        }
+
+        return true
     }
 }
