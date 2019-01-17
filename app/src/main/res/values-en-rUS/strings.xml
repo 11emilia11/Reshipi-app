@@ -22,4 +22,8 @@
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_activity_nova_tela">New Screen</string>
     <string name="ImgSplashContent">Recipes book icon</string>
+    <string name="TvListarRec">List recipes</string>
+    <string name="TvBuscarRec">Search recipes</string>
+    <string name="ContentListar">List icon</string>
+    <string name="ContentBuscar">Magnifier icon</string>
 </resources>
