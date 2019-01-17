@@ -22,4 +22,7 @@
     <string name="tvSenhaCadastro">Senha</string>
     <string name="tvConfirmarSenhaCad">Confirmar senha</string>
 
+    <string name="NomeSplash">Reshipi</string>
+    <string name="ImgSplashContent">Ícone de livro de receitas</string>
+
 </resources>

@@ -25,7 +25,7 @@ class SplashScreen : AppCompatActivity() {
                         Reporeceitas.getInstancia()
 
                     }
-                    Thread.sleep(1000)
+                    Thread.sleep(5000)
                     val intent = Intent(baseContext, MainActivity::class.java)
                     startActivity(intent)
 
