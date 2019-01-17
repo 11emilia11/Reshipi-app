@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     var database : FirebaseDatabase? = null
     var usuarios : DatabaseReference? = null
+    var receitas : DatabaseReference? = null
     var mAuth: FirebaseAuth? = null
     var mAuthListener: FirebaseAuth.AuthStateListener? = null
 
@@ -25,19 +26,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.loginscreen)
 
-        val SDK_INT = android.os.Build.VERSION.SDK_INT
-        if (SDK_INT > 8)
-        {
-            val policy = StrictMode.ThreadPolicy.Builder().permitAll().build()
-            StrictMode.setThreadPolicy(policy)
-            Reporeceitas.getInstancia()
 
-        }
 
         database = FirebaseDatabase.getInstance()
         usuarios = database!!.getReference("Usuarios")
+        receitas = database!!.getReference("Receitas")
         mAuth = FirebaseAuth.getInstance()
         mAuthListener = FirebaseAuth.AuthStateListener {  }
+
+        var receita = Reporeceitas.getInstancia().listarReceitas().get(0)
+        receitas!!.child(receita.nome).setValue(receita)
+
 
         buttoncadastro.setOnClickListener {
 
