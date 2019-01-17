@@ -29,10 +29,11 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="27dp"
+        android:layout_width="169dp"
+        android:layout_height="34dp"
         android:fontFamily="@font/forte"
         android:text="@string/TvListarRec"
+        android:textSize="28dp"
         app:layout_constraintBottom_toBottomOf="@+id/btnListar"
         app:layout_constraintEnd_toEndOf="@+id/btnListar"
         app:layout_constraintStart_toStartOf="@+id/btnListar"
@@ -65,11 +66,12 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/forte"
         android:text="@string/TvBuscarRec"
+        android:textSize="28dp"
         app:layout_constraintBottom_toBottomOf="@+id/btnBuscar"
         app:layout_constraintEnd_toEndOf="@+id/btnBuscar"
-        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintHorizontal_bias="0.625"
         app:layout_constraintStart_toStartOf="@+id/btnBuscar"
         app:layout_constraintTop_toTopOf="@+id/btnBuscar"
-        app:layout_constraintVertical_bias="0.847" />
+        app:layout_constraintVertical_bias="0.891" />
 
 </android.support.constraint.ConstraintLayout>

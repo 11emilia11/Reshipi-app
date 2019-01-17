@@ -26,4 +26,14 @@
     <string name="TvBuscarRec">Search recipes</string>
     <string name="ContentListar">List icon</string>
     <string name="ContentBuscar">Magnifier icon</string>
+    <string name="ResultReceitas">Possible recipes with the selected ingredients</string>
+    <string name="ToastNome">Please, enter your name</string>
+    <string name="ToastEmail">Please, enter your e-mail</string>
+    <string name="ToastSenha">Passwords don\'t match</string>
+    <string name="ToastUsuarioEx">Already existing user</string>
+    <string name="ToastUserCre">User created successfully</string>
+    <string name="ToasLoginOK">Login successfully</string>
+    <string name="ToastPassWrong">Incorrect password</string>
+    <string name="ToastEmailWR">Uresgistered e-mail</string>
+    <string name="ToastDigiteWR">Type correctly</string>
 </resources>

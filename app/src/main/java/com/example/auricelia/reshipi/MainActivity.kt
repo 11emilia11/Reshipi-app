@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
                             mAuth!!.signInWithEmailAndPassword(usuario.email,usuario.senha)
                                     .addOnCompleteListener { task ->
                                         if (task.isSuccessful) {
-                                            Toast.makeText(applicationContext, "Login realizado com sucesso", Toast.LENGTH_SHORT).show()
+                                            Toast.makeText(applicationContext, R.string.ToasLoginOK, Toast.LENGTH_SHORT).show()
                                             val intent = Intent(applicationContext, ActMenu::class.java)
                                             startActivity(intent)
                                             finish()
@@ -83,14 +83,14 @@ class MainActivity : AppCompatActivity() {
                                     }
 
                         } else{
-                            Toast.makeText(applicationContext, "Senha incorreta", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(applicationContext, R.string.ToastPassWrong, Toast.LENGTH_SHORT).show()
                         }
                     }else{
-                        Toast.makeText(applicationContext, "Email nao cadastrado", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(applicationContext, R.string.ToastEmailWR, Toast.LENGTH_SHORT).show()
                     }
 
                 }else{
-                    Toast.makeText(applicationContext, "Digite corretamente", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(applicationContext, R.string.ToastDigiteWR, Toast.LENGTH_SHORT).show()
                 }
 
             }

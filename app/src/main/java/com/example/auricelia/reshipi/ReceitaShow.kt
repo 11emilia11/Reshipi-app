@@ -39,7 +39,7 @@ class ReceitaShow : AppCompatActivity() {
             array2.add(resultado.get(4).nome)
 
 
-            ReceitaName.setText("Receitas possíveis a partir dos ingredientes escolhidos")
+            ReceitaName.setText(R.string.ResultReceitas);
             var viewAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, array2)
             ListView1ShowReceita.adapter = viewAdapter
 

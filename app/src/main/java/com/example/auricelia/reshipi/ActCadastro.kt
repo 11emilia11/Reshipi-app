@@ -31,16 +31,16 @@ class ActCadastro : AppCompatActivity() {
 
             if (TextUtils.isEmpty(editTXTNome.text.toString()))
             {
-                Toast.makeText(this,"Por favor digite seu nome" , Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,R.string.ToastNome , Toast.LENGTH_SHORT).show()
             }
             else if (TextUtils.isEmpty(edittxtEmail.text.toString()))
             {
-                Toast.makeText(this, "Por favor digite seu email" , Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, R.string.ToastEmail , Toast.LENGTH_SHORT).show()
             }
             else if ( !editTextSenhaCadastro.text.toString().equals(editTextConfSenha.text.toString())
                        || TextUtils.isEmpty(editTextSenhaCadastro.text.toString()) )
             {
-                Toast.makeText(this,"Senhas não conferem", Toast.LENGTH_LONG).show()
+                Toast.makeText(this,R.string.ToastSenha, Toast.LENGTH_LONG).show()
             }
             else
             {
@@ -56,7 +56,7 @@ class ActCadastro : AppCompatActivity() {
                     override fun onDataChange(dataSnapshot: DataSnapshot) {
 
                                 if (dataSnapshot.child(usuario.email).exists()){
-                                    Toast.makeText(applicationContext, "Usuário já existe",
+                                    Toast.makeText(applicationContext, R.string.ToastUsuarioEx,
                                             Toast.LENGTH_SHORT).show()
                                 }else{
                                     usuario.DecodeString()
@@ -67,7 +67,7 @@ class ActCadastro : AppCompatActivity() {
                                                     usuario.EncodeString()
                                                     usuarios!!.child(usuario.email).setValue(usuario)
                                                     Toast.makeText(applicationContext,
-                                                            "Usuario criado com sucesso", Toast.LENGTH_SHORT).show()
+                                                            R.string.ToastUserCre, Toast.LENGTH_SHORT).show()
 
                                                     val intent = Intent(applicationContext, MainActivity::class.java)
                                                     startActivity(intent)

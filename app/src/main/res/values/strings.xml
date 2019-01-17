@@ -30,5 +30,18 @@
 
     <string name="TvListarRec">Listar receitas</string>
     <string name="TvBuscarRec">Buscar receitas</string>
+    
+    <string name="ResultReceitas">Receitas possíveis a partir dos ingredientes escolhidos</string>
+    <string name="ToastNome">Por favor, digite seu nome</string>
+    <string name="ToastEmail">Por favor, digite seu e-mail</string>
+    <string name="ToastSenha">Senhas não conferem</string>
+    <string name="ToastUsuarioEx">Usuário já existente</string>
+    <string name="ToastUserCre">Usuário criado com sucesso</string>
+
+    <string name="ToasLoginOK">Login realizado com sucesso</string>
+    <string name="ToastPassWrong">Senha incorreta</string>
+    <string name="ToastEmailWR">E-mail não cadastrado</string>
+    <string name="ToastDigiteWR">Digite corretamente</string>
+
 
 </resources>
