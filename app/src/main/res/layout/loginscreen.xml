@@ -9,7 +9,7 @@
 
     <EditText
         android:id="@+id/editTextEmail"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -17,24 +17,24 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="48dp"
+        android:autofillHints=""
+        android:backgroundTint="#ffffff"
         android:ems="10"
-        android:textColor="#ffffff"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toTopOf="@+id/editTextSenha"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.972"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.972" />
 
     <EditText
         android:id="@+id/editTextSenha"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="156dp"
-        android:ems="10"
         android:backgroundTint="#ffffff"
+        android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/editTextEmail"
@@ -52,8 +52,9 @@
         android:layout_marginBottom="88dp"
         android:background="@drawable/rounded_button"
         android:text="@string/btnLogin"
+        android:backgroundTint="#f9d423"
         android:textAllCaps="false"
-        android:textColor="#504e71"
+        android:textColor="#ffffff"
         android:textSize="16dp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -73,7 +74,7 @@
         android:background="@drawable/rounded_button"
         android:text="@string/btnCadastro"
         android:textAllCaps="false"
-        android:textColor="#504e71"
+        android:textColor="#77a1d3"
         android:textSize="16dp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -88,12 +89,13 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/tvEmailLogin"
+        android:textColor="#ffffff"
         app:layout_constraintBottom_toTopOf="@+id/editTextEmail"
         app:layout_constraintEnd_toEndOf="@+id/editTextEmail"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.097"
         app:layout_constraintStart_toStartOf="@+id/editTextEmail"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.973" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textViewSenha"
@@ -102,12 +104,13 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/tvSenhaLogin"
+        android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="@+id/editTextSenha"
         app:layout_constraintEnd_toEndOf="@+id/editTextSenha"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.097"
         app:layout_constraintStart_toStartOf="@+id/editTextSenha"
         app:layout_constraintTop_toBottomOf="@+id/editTextEmail"
-        app:layout_constraintVertical_bias="0.181" />
+        app:layout_constraintVertical_bias="0.136" />
 
     <ImageView
         android:id="@+id/imageView"
