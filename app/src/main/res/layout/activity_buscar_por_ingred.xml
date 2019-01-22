@@ -29,7 +29,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/rounded_button"
-        android:backgroundTint="#00467f"
+        android:backgroundTint="#f9d423"
         android:text="@string/btnPesquisarIngr"
         android:textAllCaps="false"
         android:textColor="#ffffff"

@@ -152,7 +152,7 @@
         android:fontFamily="@font/sarabunbold"
         android:text="@string/btnCadastrar"
         android:textAllCaps="false"
-        android:textColor="#000000"
+        android:textColor="#ffffff"
         android:backgroundTint="#f9d423"
         android:textSize="16sp"
         android:textStyle="normal"
