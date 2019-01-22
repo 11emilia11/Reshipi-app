@@ -28,14 +28,25 @@ public class Reporeceitas {
         this.receitas = new ArrayList<>();
     }
 
+    private Reporeceitas(ArrayList<Receita> array)
+    {
+        this.receitas = array;
+    }
+
     public static Reporeceitas getInstancia()
     {
         if(instancia == null)
         {
-            instancia = Reporeceitas.load();
+            //instancia = Reporeceitas.load();
+            instancia = new Reporeceitas();
         }
 
         return instancia;
+    }
+
+    public void updateReceitas(ArrayList<Receita> array)
+    {
+        this.receitas = array;
     }
 
     public void cadastrarReceita(Receita r) throws  Objetojaexiste

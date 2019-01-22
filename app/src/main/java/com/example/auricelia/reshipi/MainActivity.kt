@@ -1,5 +1,6 @@
 package com.example.auricelia.reshipi
 
+import Beans.Receita
 import Beans.Usuario
 import Dados.Reporeceitas
 import android.content.Intent
@@ -34,9 +35,31 @@ class MainActivity : AppCompatActivity() {
         mAuth = FirebaseAuth.getInstance()
         mAuthListener = FirebaseAuth.AuthStateListener {  }
 
-        var receita = Reporeceitas.getInstancia().listarReceitas().get(0)
-        receitas!!.child(receita.nome).setValue(receita)
 
+        receitas!!.addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onCancelled(p0: DatabaseError) {
+                //To change body of created functions use File | Settings | File Templates.
+            }
+
+            override fun onDataChange(dataSnapshot: DataSnapshot) {
+            var array = ArrayList<Receita>()
+            for(x in 0..(dataSnapshot.childrenCount-1))
+            {
+                var Receita = dataSnapshot.child(x.toString()).getValue(Receita::class.java)
+                Receita!!.setIngredientes(dataSnapshot.child(x.toString()).child("Ingredientes").value as java.util.ArrayList<String>)
+                array.add(Receita as Receita)
+            }
+                Reporeceitas.getInstancia().updateReceitas(array)
+            }
+        })
+
+        //var cont = 0 //FUNÇÃO QUE FEZ O CADASTRO DAS RECEITA
+        //for(x in Reporeceitas.getInstancia().listarReceitas()){
+
+          //  receitas!!.child(cont.toString()).setValue(x)
+           // receitas!!.child(cont.toString()).child("Ingredientes").setValue(x.listarIngredientes())
+            //cont += 1
+        //}
 
         buttoncadastro.setOnClickListener {
 
@@ -50,6 +73,15 @@ class MainActivity : AppCompatActivity() {
             this.entrar(usuario)
         }
 
+    }
+
+    fun loadFirebase(): ArrayList<Receita>{
+
+        var Receitas = ArrayList<Receita>()
+
+
+
+        return Receitas
     }
 
     fun entrar(usuario: Usuario){

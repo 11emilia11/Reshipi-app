@@ -1,23 +1,15 @@
 package com.example.auricelia.reshipi
 
-import Dados.Reporeceitas
 import algoritmosIA.KNN
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_buscar_por_ingred.*
 import android.os.StrictMode
-import android.util.SparseBooleanArray
-import android.view.View
 import android.widget.*
-import java.text.ChoiceFormat
 
 
 class BuscarPorIngred : AppCompatActivity() {
-
-
 
     override fun onCreate(savedInstanceState: Bundle?)
     {

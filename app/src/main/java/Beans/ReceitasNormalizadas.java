@@ -33,9 +33,10 @@ public class ReceitasNormalizadas extends Receita {
         return ingredientes;
     }
 
-    public void setIngredientes(ArrayList<Integer> ingredientes) {
-        this.ingredientes = ingredientes;
-    }
+    //@Override
+    //public void setIngredientes(ArrayList<Integer> ingredientes) {
+      //  this.ingredientes = ingredientes;
+    //}
 
     public void addIngre(int ing)
     {

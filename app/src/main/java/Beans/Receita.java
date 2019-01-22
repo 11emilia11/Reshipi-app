@@ -25,6 +25,11 @@ public class Receita {
         return this.porcentagem;
     }
 
+    public void setIngredientes(ArrayList<String> ing)
+    {
+        this.ingredientes = ing;
+    }
+
     public void setPorcentagem(double porcentagem)
     {
         this.porcentagem = porcentagem;
