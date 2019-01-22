@@ -43,5 +43,7 @@
     <string name="ToastEmailWR">E-mail não cadastrado</string>
     <string name="ToastDigiteWR">Digite corretamente</string>
 
+    <string name="AppName">Reshipi</string>
+
 
 </resources>

@@ -9,8 +9,8 @@
 
     <ImageButton
         android:id="@+id/btnListar"
-        android:layout_width="246dp"
-        android:layout_height="193dp"
+        android:layout_width="201dp"
+        android:layout_height="149dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -18,32 +18,35 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/rounded_button"
+        android:backgroundTint="#00467f"
         android:contentDescription="@string/ContentListar"
         android:src="@drawable/listinhaa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintHorizontal_bias="0.58"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.243" />
+        app:layout_constraintVertical_bias="0.263" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="169dp"
-        android:layout_height="34dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/forte"
         android:text="@string/TvListarRec"
-        android:textSize="28dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/btnListar"
         app:layout_constraintEnd_toEndOf="@+id/btnListar"
+        app:layout_constraintHorizontal_bias="0.55"
         app:layout_constraintStart_toStartOf="@+id/btnListar"
         app:layout_constraintTop_toTopOf="@+id/btnListar"
-        app:layout_constraintVertical_bias="0.905" />
+        app:layout_constraintVertical_bias="0.918" />
 
     <ImageButton
         android:id="@+id/btnBuscar"
-        android:layout_width="246dp"
-        android:layout_height="193dp"
+        android:layout_width="201dp"
+        android:layout_height="149dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -51,14 +54,15 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/rounded_button"
+        android:backgroundTint="#00467f"
         android:contentDescription="@string/ContentBuscar"
         android:src="@drawable/lupinhaa"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintHorizontal_bias="0.58"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.867" />
+        app:layout_constraintVertical_bias="0.771" />
 
     <TextView
         android:id="@+id/textView5"
@@ -66,7 +70,8 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/forte"
         android:text="@string/TvBuscarRec"
-        android:textSize="28dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/btnBuscar"
         app:layout_constraintEnd_toEndOf="@+id/btnBuscar"
         app:layout_constraintHorizontal_bias="0.625"
