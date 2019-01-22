@@ -30,7 +30,7 @@
 
     <string name="TvListarRec">Listar receitas</string>
     <string name="TvBuscarRec">Buscar receitas</string>
-    
+
     <string name="ResultReceitas">Receitas possíveis a partir dos ingredientes escolhidos</string>
     <string name="ToastNome">Por favor, digite seu nome</string>
     <string name="ToastEmail">Por favor, digite seu e-mail</string>

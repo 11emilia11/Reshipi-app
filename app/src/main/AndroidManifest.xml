@@ -12,9 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ActMenu" />
-        <activity android:name=".SplashScreen"
-            android:theme="@style/SplashTheme"
-            android:noHistory="true">
+        <activity
+            android:name=".SplashScreen"
+            android:noHistory="true"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,7 +28,8 @@
         <activity android:name=".ReceitaShow" />
         <activity android:name=".receitalista" />
         <activity android:name=".ReceitaResultado" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".cadastroReceita"></activity>
     </application>
 
 </manifest>
