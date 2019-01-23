@@ -44,6 +44,14 @@
     <string name="ToastDigiteWR">Digite corretamente</string>
 
     <string name="AppName">Reshipi</string>
+    
+    <string name="TvCadReceita">Nome da receita</string>
+    <string name="BtnCadReceita">Cadastrar</string>
+    <string name="TvCadastroRecNome">Cadastro de Receita</string>
+
+    <string name="TvCadastroRecMenu">Cadastrar receita</string>
+    <string name="TvBuscarRecMenu">Buscar receitas</string>
+    <string name="TvListarRecMenu">Listar receitas</string>
 
 
 </resources>

@@ -23,7 +23,7 @@
     <string name="title_activity_nova_tela">New Screen</string>
     <string name="ImgSplashContent">Recipes book icon</string>
     <string name="TvListarRec">List recipes</string>
-    <string name="TvBuscarRec">Search recipes</string>
+    <string name="TvBuscarRec">Search for recipes</string>
     <string name="ContentListar">List icon</string>
     <string name="ContentBuscar">Magnifier icon</string>
     <string name="ResultReceitas">Possible recipes with the selected ingredients</string>
@@ -37,4 +37,10 @@
     <string name="ToastEmailWR">Uresgistered e-mail</string>
     <string name="ToastDigiteWR">Type correctly</string>
     <string name="AppName">Reshipi</string>
+    <string name="TvCadReceita">Recipe\'s name</string>
+    <string name="BtnCadReceita">Register</string>
+    <string name="TvCadastroRecNome">Register Recipe</string>
+    <string name="TvCadastroRecMenu">Register Recipe</string>
+    <string name="TvBuscarRecMenu">Search for Recipes</string>
+    <string name="TvListarRecMenu">List Recipes</string>
 </resources>
