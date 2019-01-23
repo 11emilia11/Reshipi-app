@@ -24,6 +24,12 @@ class ActMenu : AppCompatActivity() {
             startActivity(i)
         }
 
+        btnCadastrar.setOnClickListener {
+
+            val i = Intent(this, cadastroReceita::class.java)
+            startActivity(i)
+        }
+
 
     }
 }
